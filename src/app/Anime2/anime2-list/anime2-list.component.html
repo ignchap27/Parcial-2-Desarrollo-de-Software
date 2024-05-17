@@ -1,0 +1,22 @@
+<p>
+  anime2-list works!
+</p>
+<div class="container-fluid">
+  <div *ngIf="selected">
+    <app-anime2-detail [anime]="selected"></app-anime2-detail>
+  </div>
+  <div class="row">
+    <div class="col-md-2" *ngFor="let anime fo animes">
+      <div class="card-header">
+        <h4>{{anime.title}}</h4>
+      </div>
+      <div class="card-img-top">
+        src="{{anime.image}}"
+      </div>
+      <div class="card-body">
+        <p>{{anime.Rating}}</p>
+        <p>{{anime.categorie}}</p>
+      </div>
+    </div>
+  </div>
+</div>
