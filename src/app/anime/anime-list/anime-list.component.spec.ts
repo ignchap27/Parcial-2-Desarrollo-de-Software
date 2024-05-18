@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { Anime2ListComponent } from './anime2-list.component';
+import { AnimeListComponent } from './anime-list.component';
 
-describe('Anime2ListComponent', () => {
-  let component: Anime2ListComponent;
-  let fixture: ComponentFixture<Anime2ListComponent>;
+describe('AnimeListComponent', () => {
+  let component: AnimeListComponent;
+  let fixture: ComponentFixture<AnimeListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Anime2ListComponent ]
+      declarations: [ AnimeListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Anime2ListComponent);
+    fixture = TestBed.createComponent(AnimeListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

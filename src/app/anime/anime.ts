@@ -1,8 +1,8 @@
-export class Anime2 {
+export class Anime {
     id: number;
     name: string;
     description: string;
-    Rating: number;
+    rating: number;
     episode: number;
     categorie:string;
     studio:string;
@@ -12,7 +12,7 @@ export class Anime2 {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.Rating = Rating;
+        this.rating = Rating;
         this.episode = episode;
         this.categorie = categorie;
         this.studio = studio;
